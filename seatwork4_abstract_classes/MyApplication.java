@@ -5,6 +5,7 @@ public class MyApplication {
 	public static void main(String[] args) {
 		Program excel = new MSExcel("MS Excel");
 		Program word = new MSWord("MS Word");
+		excel = word;
 		
 		runProgram(excel);
 		runProgram(word);
